@@ -1,6 +1,7 @@
 import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
 import mainRouter from '../router';
+import { db } from './firebase';
 
 const app: Express = express();
 
